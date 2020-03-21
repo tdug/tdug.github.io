@@ -19,8 +19,7 @@ const useStyles = makeStyles({
     marginRight: 2
   },
   title: {
-    flexGrow: 1,
-    cursor: "pointer"
+    flexGrow: 1
   }
 });
 
