@@ -5,7 +5,8 @@ import {
   Menu as MenuIcon,
   Brightness4 as DarkThemeIcon,
   Brightness5 as LightThemeIcon,
-  GitHub as GitHubIcon
+  GitHub as GitHubIcon,
+  LinkedIn as LinkedInIcon
 } from "@material-ui/icons"
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -46,7 +47,7 @@ export default function NavTop({ openNavLeft }) {
   return (
     <div className={classes.root}>
       <AppBar position="fixed" color="default">
-        <Toolbar variant="dense">
+        <Toolbar>
           <IconButton
             className={classes.menuButton}
             edge="start"
@@ -69,6 +70,13 @@ export default function NavTop({ openNavLeft }) {
             renderAs={Link}
           >
             <GitHubIcon />
+          </IconButton>
+          <IconButton
+            href="https://www.linkedin.com/in/tom-dugovic/"
+            target="_blank"
+            renderAs={Link}
+          >
+            <LinkedInIcon />
           </IconButton>
         </Toolbar>
       </AppBar>

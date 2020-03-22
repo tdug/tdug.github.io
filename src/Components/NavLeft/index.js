@@ -70,9 +70,9 @@ export default function NavLeft({ open, setOpen }) {
           />
           <Divider />
           <ListItemLink
-            primary="CV"
+            primary="Experience"
             icon=<DescriptionIcon />
-            to="/about/cv"
+            to="/about/experience"
           />
           <ListItemLink
             primary="Contact"

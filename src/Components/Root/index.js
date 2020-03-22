@@ -6,11 +6,11 @@ import { ThemeProvider } from "../../Contexts/Theme";
 import NavTop from "../NavTop";
 import NavLeft from "../NavLeft";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
   root: {
-    paddingTop: "50px"
-  }
-});
+    paddingTop: theme.spacing(8)
+  },
+}));
 
 export default function Root() {
   const classes = useStyles();
