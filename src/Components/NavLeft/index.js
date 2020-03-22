@@ -74,6 +74,7 @@ export default function NavLeft({ open, setOpen }) {
             icon=<DescriptionIcon />
             to="/about/experience"
           />
+          <Divider />
           <ListItemLink
             primary="Contact"
             icon=<MailIcon />

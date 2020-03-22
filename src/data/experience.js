@@ -9,7 +9,7 @@ export const experience = {
       description: 'Full-Stack web development in Laravel for core service. Integrating new features and bugfixes. Data migrations and operations. Building APIs and consuming them in React.js on the front-end.',
       tech: {
         languages: ['PHP', 'JavaScript', 'HTML', 'CSS', 'SCSS'],
-        frameworks: ['Laravel', 'React.js'],
+        frameworks: ['Laravel', 'React.js', 'Bootstrap', 'Material-UI'],
         storage: ['MySQL', 'Redis']
       }
     },
@@ -22,7 +22,7 @@ export const experience = {
       description: "Full-Stack web development in Ruby on Rails for core service. Integration with external APIs for time card and payroll data. Integration of APIs for mobile applications to use.",
       tech: {
         languages: ['Ruby', 'JavaScript', 'HTML', 'CSS', 'SCSS'],
-        frameworks: ['Ruby on Rails', 'React.js'],
+        frameworks: ['Ruby on Rails', 'React.js', 'Bootstrap'],
         storage: ['PostgreSQL', 'Redis', 'Amazon Redshift']
       }
     },
@@ -35,7 +35,7 @@ export const experience = {
       description: "Full-stack web development in Django for core service. Building out a SIEM for system administrators to monitor an anti-virus solution.",
       tech: {
         languages: ['Python', 'JavaScript', 'HTML', 'CSS', 'SCSS'],
-        frameworks: ['Django', 'Backbone.js'],
+        frameworks: ['Django', 'Backbone.js', 'Bootstrap'],
         storage: ['PostgreSQL', 'SQLite', 'Redis', 'Google Bigtable']
       }
     },
@@ -48,7 +48,7 @@ export const experience = {
       description: "Full-Stack web development in Ruby on Rails for an SEO-optimized site. Site had ~4M daily auto listings, searchable by multiple parameters including region.",
       tech: {
         languages: ['Ruby', 'JavaScript', 'HTML', 'CSS', 'SCSS'],
-        frameworks: ['Ruby on Rails', "Backbone.js"],
+        frameworks: ['Ruby on Rails', 'Backbone.js', 'Bootstrap'],
         storage: ['MySQL', 'PostgreSQL', 'Redis']
       },
     }

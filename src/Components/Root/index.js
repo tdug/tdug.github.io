@@ -8,7 +8,7 @@ import NavLeft from "../NavLeft";
 
 const useStyles = makeStyles(theme => ({
   root: {
-    paddingTop: theme.spacing(8)
+    paddingTop: theme.spacing(10)
   },
 }));
 
