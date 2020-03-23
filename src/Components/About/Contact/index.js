@@ -5,7 +5,7 @@ import {
   LinkedIn as LinkedInIcon
 } from "@material-ui/icons"
 
-const email = "\"Code200, LLC\"tom.dugovic@gmail.com?subject=Contracting Services";
+const email = "tom.dugovic@gmail.com?subject=Contracting Services";
 const li_url = "https://www.linkedin.com/in/tom-dugovic";
 
 export default function Contact() {
