@@ -60,6 +60,8 @@ export default function Experience() {
               <Typography variant="small">Frameworks: {w.tech.frameworks.join(' | ')}</Typography>
               <br />
               <Typography variant="small">Storage: {w.tech.storage.join(' | ')}</Typography>
+              <br />
+              <Typography variant="small">Tools: {w.tech.tools.join(' | ')}</Typography>
             </Grid>
           </Grid>
         </Paper>

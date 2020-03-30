@@ -10,7 +10,8 @@ export const experience = {
       tech: {
         languages: ['PHP', 'JavaScript', 'HTML', 'CSS', 'SCSS'],
         frameworks: ['Laravel', 'React.js', 'Bootstrap', 'Material-UI'],
-        storage: ['MySQL', 'Redis']
+        storage: ['MySQL', 'Redis'],
+        tools: ['Docker', 'CircleCI']
       }
     },
     {
@@ -23,7 +24,8 @@ export const experience = {
       tech: {
         languages: ['Ruby', 'JavaScript', 'HTML', 'CSS', 'SCSS'],
         frameworks: ['Ruby on Rails', 'React.js', 'Bootstrap'],
-        storage: ['PostgreSQL', 'Redis', 'Amazon Redshift']
+        storage: ['PostgreSQL', 'Redis', 'Amazon Redshift'],
+        tools: ['Docker', 'CircleCI']
       }
     },
     {
@@ -36,7 +38,8 @@ export const experience = {
       tech: {
         languages: ['Python', 'JavaScript', 'HTML', 'CSS', 'SCSS'],
         frameworks: ['Django', 'Backbone.js', 'Bootstrap'],
-        storage: ['PostgreSQL', 'SQLite', 'Redis', 'Google Bigtable']
+        storage: ['PostgreSQL', 'SQLite', 'Redis', 'Google Bigtable'],
+        tools: ['Docker', 'CircleCI']
       }
     },
     {
@@ -49,7 +52,8 @@ export const experience = {
       tech: {
         languages: ['Ruby', 'JavaScript', 'HTML', 'CSS', 'SCSS'],
         frameworks: ['Ruby on Rails', 'Backbone.js', 'Bootstrap'],
-        storage: ['MySQL', 'PostgreSQL', 'Redis']
+        storage: ['MySQL', 'PostgreSQL', 'Redis'],
+        tools: ['Vagrant', 'Docker']
       },
     }
   ]
