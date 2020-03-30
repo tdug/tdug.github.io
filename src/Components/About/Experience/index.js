@@ -41,13 +41,15 @@ export default function Experience() {
               <Typography variant="h5">
                 {w.company.name}
               </Typography>
-              <IconButton
-                href={w.company.url}
-                target="_blank"
-                renderAs={Link}
-              >
-                <PublicIcon />
-              </IconButton>
+              {w.company.url && (
+                <IconButton
+                  href={w.company.url}
+                  target="_blank"
+                  renderAs={Link}
+                >
+                  <PublicIcon />
+                </IconButton>
+              )}
             </Grid>
             <Grid item xs={12} sm={9}>
               <Typography variant="h5">{w.title}</Typography>

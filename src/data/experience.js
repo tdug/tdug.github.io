@@ -55,6 +55,19 @@ export const experience = {
         storage: ['MySQL', 'PostgreSQL', 'Redis'],
         tools: ['Vagrant', 'Docker', 'RSpec', 'minitest', 'Cucumber']
       },
+    },
+    {
+      company: {
+        name: 'MuniEx'
+      },
+      title: 'CTO',
+      description: 'Solo engineer for very early stage start-up. Responsibilities included building and documenting a prototype financial exchange to demonstrate to regulatory agencies and investors.',
+      tech: {
+        languages: ['Ruby', 'JavaScript', 'HTML', 'CSS', 'SCSS'],
+        frameworks: ['Ruby on Rails', 'Bootstrap'],
+        storage: ['PostgreSQL', 'Redis'],
+        tools: ['Docker', 'RSpec', 'Capybara']
+      },
     }
   ]
 }
